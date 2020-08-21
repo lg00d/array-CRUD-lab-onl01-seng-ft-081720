@@ -19,7 +19,7 @@ def remove_element_from_end_of_array(array)
   end
 
 def remove_element_from_start_of_array(array)
-  two_fish = array.pop #Where is two_fish coming from???? the first tab told me that you have to state th
+  two_fish = array.pop #Where is two_fish coming from???? the first tab told me that you have to state th sorry lolsk 
   end
 
 def retrieve_element_from_index(array, index_number)
