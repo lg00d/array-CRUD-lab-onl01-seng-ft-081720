@@ -7,30 +7,28 @@ def create_an_array
   end
 
 def add_element_to_end_of_array(array, element)
-  << "moo fish"
+  array<< element
   end
 
 def add_element_to_start_of_array(array, element)
-  unshift ("yellow fish")
+ element.unshift
   end
 
 def remove_element_from_end_of_array(array)
-  pop
+  array.shift
   end
 
 def remove_element_from_start_of_array(array)
-  famous_fish.shift
+  array.pop
   end
 
 def retrieve_element_from_index(array, index_number)
-  [0]
+  array.index("red fish")
   end
 
 def retrieve_first_element_from_array(array)
-  [0]
-  end
-
+  array[0]
 def retrieve_last_element_from_array(array)
-  [3]
+  array[3]
   end
 
