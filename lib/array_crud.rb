@@ -19,11 +19,11 @@ def remove_element_from_end_of_array(array)
   end
 
 def remove_element_from_start_of_array(array)
-  two_fish = array.pop
+  two_fish = array.pop #Where is two_fish coming from???? the first tab told me that you have to state th
   end
 
 def retrieve_element_from_index(array, index_number)
-  array.index("red fish")
+  array.index("red fish") # whats the purpose of index_number?
   end
 
 def retrieve_first_element_from_array(array)
